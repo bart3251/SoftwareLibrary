@@ -1,7 +1,7 @@
 # Software Manual
 ## Root Finding Functions
 
-### bisect(double a, double b, double tol, int maxIters){
+### bisect(double a, double b, double tol, int maxIters)
 Currently, the function bisect is at the disadvantage that it must have a hardcoded function, f, in order to function.  Future edits may resolve this problem.  the function itself is an implementation of the bisection method for finding the root of a function.It takes as inputs: a,b,f (as a hardcoded function aforementioned), tol, and matiters.  It then gives the output c.
 
 a is the lower bound of the function stored as a double
