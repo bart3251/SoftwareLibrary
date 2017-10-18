@@ -1,6 +1,6 @@
 # Math 4610 Fundamentals of Computational Mathematics Software Manual File
 
-**Routine Name:**           bisection
+**Routine Name:**           bisect
 
 **Author:** Shaun Bartschi
 
@@ -20,7 +20,7 @@ will produce an executable **./a.out** than can be executed on the Windows Subsy
 
 **Usage/Example:**
 
-The routine requires 4 inputs, not including the function, as detailed above.  Since the code is written in terms of a C++ subroutine, it must be executed within a main funtion which must also include a subroutine for _f_ the function to find the root.  A few of these lines of code are included below: 
+The routine requires 4 inputs, not including the function, as detailed above.  The routine takes the average of the values _a_ and _b_, checks if that value is a 0 when given as input to the function _f_.  If the value that the function returns is greater than the error tolerance, the function will make _c_ the value of _a_ if the value returned by the function is negative, or the value _b_ if it is positive and repeats this process until the error is satisfied or the number of maximum iterations is exceeded.  Since the code is written in terms of a C++ subroutine, it must be executed within a main funtion which must also include a subroutine for _f_ the function to find the root.  A few of these lines of code in main are included below: 
 
       //Assuming f(x) = x - 2;
       cout<<bisect(0, 10, 0.0001, 10000)<<endl;
@@ -57,5 +57,9 @@ Output from the lines above:
       return c;
     }
 ```
+
+**Propositions for Improvement**
+
+Currently, the function bisect is at the disadvantage that it must have a hardcoded function, f, in order to function.  Future edits may resolve this problem.
 
 **Last Modified:** October/2017
