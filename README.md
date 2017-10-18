@@ -1,7 +1,7 @@
 # Software Manual
 ## Root Finding Functions
 
-### [bisect()](https://github.com/bart3251/SoftwareLibrary/bisection.md)
+### [bisect()](https://github.com/bart3251/SoftwareLibrary/blob/master/bisection.md)
 
 ### fpiter(double a, double b, double tol, int maxiters)
 Currently, the function fpiter is at the disadvantage that it must have a hardcoded function, f, in order to function.  Future edits may resolve this problem.  The function itself is a implementation of the fixed point numerical operation to finding a root of a function.  It takes as inputs: a,b,f (as a hardcoded function aforementioned), tol, and matiters.  It then gives the output c.
