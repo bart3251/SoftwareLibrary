@@ -1,4 +1,4 @@
-# Software Manual
+# Math 4610 Fundamentals of Computational Mathematics Software Manual
 ## Root Finding Functions
 
 ### [bisect()](https://github.com/bart3251/SoftwareLibrary/blob/master/bisection.md)
