@@ -2,17 +2,17 @@
 This is a template file for building an entry in the student software manual project. You should use the formatting below to
 define an entry in your software manual.
 
-**Routine Name:**           smaceps
+**Routine Name:**           bisect
 
 **Author:** Shaun Bartschi
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+**Language:** C++ The code can be compiled using the GNU C++14 compiler (g++)
 
 For example,
 
-    gfortran smaceps.f
+    g++ bisection.cpp
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
+will produce an executable **./a.out** than can be executed on the Windows Subsystem for Linux (WSL), or likely any Linux system.. If you want a different name, the following will work a bit
 better
 
     gfortran -o smaceps smaceps.f
